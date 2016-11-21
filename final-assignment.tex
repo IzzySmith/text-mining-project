@@ -1,0 +1,45 @@
+\documentclass{article}
+
+  \title{Opening the third eye: Experiences with Psychedelics}
+  \author{Isobel Smith}
+  \date{20/11/2016}
+  
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+
+ \begin{document}
+\maketitle
+
+\section{Research Question}
+
+Psychoactive, or psychadelic drugs, such as mushrooms and LSD, are believed by many users to enhance conciousness, giving practitioners a spiritual, or even religious, experience \cite{letcher} \cite{watts}. Entrenched in indigenous culture, the use and popularity of these drugs is growing globally, despite prohibition, \cite{letcher} \cite{rager}. According to Letcher, practitioners experiences' with these drugs are "weighted", meaning that many people encounter similar hallucinations whilst on these drugs.  According to my own research, psychadelic drugs are amongst the most popular recreational drugs across both genders (see figure 1). What is it about the experiences people have on these drugs that make them so popular? Do people have shared or similar experiences? Is there a common goal or experience that these drug users strive for?\\
+
+In order to answer these questions I will datamine the Erowid experience vaults. This database is built on drug users documenting their own personal experiences, and therefore provides valuable insights into the popularity and the appeal of such substances. 
+
+
+\section{context of research}
+The growth in use and popularity of pyschedelic drugs makes it an increasingly important area of study, as such drugs can have wide social implications. The most prominant example of this would be during the 70's, after the popularism of LSD led to the development of a subculture, spawning its own music and language \cite{letcher}. The prohibition of psychedelic drugs helps to build the (the users? the popularism? the identity?) , as an underground culture has grown around these users. Those who do use psychedelic drugs become part of an excusive club. which, due to the illegality of the substances, has its own language and customs, that only the indoctrinated can understand. \\
+
+
+\section{Data collection}
+The Erowid Experience vaults form the database for my research. The data is based on drug users documenting their own experiences, so offers a unique insight into the drug culture. \\ 
+The HTML was parsed using beautiful soup to filter and sort the drug experiences. I decided to focus primarily on mushrooms, Salvia and LSD, as these were amongst the top 5 drugs used by both genders (refer to figure 1).
+
+The data (as of the time of writing) contained 24, 843 experiences. However, as these were split across several different substances (get count), this led to (get amount) LSD experience reports, (number) Salvia reports, and (number) mushroom reports. Therefore, in order to strengthen the research (another potential sight) was used. 
+
+\section{Methodology}
+
+The erowid website was first parsed using beautiful soup, and a list of tuples of the drug and the gender [(drug, gender), (drug, gender)] was created. This then allowed me to create a table of the most used drugs for each gender, and then determine which drugs to focus on. The substances chosen were LSD, Mushrooms and Salvia.
+
+Word clouds for each substance and gender were made. This was achieved by opening each url associated with the desired experience, filtering out the stopwords and stemming them. 
+
+The author used gensim 
+
+\section{conclusion}
+
+\bibliographystyle{unsrt}
+\bibliography{erowid-paper}
+
+\end{document}
