@@ -40,7 +40,7 @@ Finally, a (initially small) selection of words associated with spiritualism (as
 spiritual_words = ['god', 'spirit', 'heaven', 'hell', 'universe','magic','atheist', 'creation', 'concious', 'exist']
 ```
 
-![spirit word graph]()
+![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/spriritwords_cropped.png)
 
 ### Conclusion
 The initial text processing needs to be refined in order to improve results. However the word frequencies suggest that evidence can be found to suggest that there is spiritualism within the modern use of psychoactive drugs.
