@@ -22,7 +22,7 @@ The genders were seperated into male and female, and charts made to compare whet
 
 ![female_drugs](https://github.com/IzzySmith/text-mining-project/blob/master/female_top5.png "Female drugs")
 
-![male drugs]()
+![male drugs](https://github.com/IzzySmith/text-mining-project/blob/master/maledrugs_cropped2.png)
 
 As you can see the differences are not substantial. Mushrooms and LSD are amongst the most popular drugs used, and therefore highlights the relevance of my research question. 
 
