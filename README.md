@@ -44,6 +44,10 @@ spiritual_words = ['god', 'spirit', 'heaven', 'hell', 'universe','magic','atheis
 
 ![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/spriritwords_cropped.png)
 
+### Next stages
+
+A chai square test will be carried out to compare whether spiritual words are over-represented in the psychoactive drugs as compared to the rest of the data 
+
 ### Conclusion
 The initial text processing needs to be refined in order to improve results. However the word frequencies suggest that evidence can be found to suggest that there is spiritualism within the modern use of psychoactive drugs.
 
