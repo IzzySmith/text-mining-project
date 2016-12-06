@@ -28,9 +28,11 @@ As you can see the differences are not substantial. Mushrooms and LSD are amongs
 
 The next step was to find all the reports which related to Mushrooms and LSD, and a count of the most frequent words was made. The text was lowered and stopwords removed, however more text processing could be done here to improve results:
 
+```
 print word_count(tokenised).most_common(30)
 
 [('like', 115720), ('would', 85580), ('felt', 84980), ('could', 69560), ('one', 65020), ('time', 64560), ('back', 61120), ('around', 52980), ('trip', 47460), ('started', 47440), ('get', 46260), ('really', 44680), ('got', 42820), ('went', 40700), ('feel', 40300), ('looked', 39840), ('thought', 39520), ('still', 38980), ('me.', 38760), ('go', 38640), ('seemed', 38000), ('going', 36560), ('see', 35500), ('began', 35440), ('everything', 35360), ('feeling', 34460), ('much', 32760), ('first', 32560), ('decided', 32080), ('even', 32000)]
+```
 
 As you can see the majority of the 30 most common words can be discarded, and if there is time, more work will be done to improve this. 
 
