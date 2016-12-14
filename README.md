@@ -44,13 +44,42 @@ spiritual_words = ['god', 'spirit', 'heaven', 'hell', 'universe','magic','atheis
 
 ![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/spriritwords_cropped.png)
 
-### Next stages
+The drugs were then split into a list of drugs classed as Serotonergic psychedelics and those that were not. This was done according to a list on [wikipedia](https://en.wikipedia.org/wiki/List_of_psychedelic_drugs)
 
-A chai square test will be carried out to compare whether spiritual words are over-represented in the psychoactive drugs as compared to the rest of the data 
+According to [Lancaster University](https://www.lancaster.ac.uk/fss/courses/ling/corpus/blue/l05_3.htm), word frequency is often normalised by Frequency per million words = ( frequency ÷ text no. words ) x 1,000,000 
+
+Therefore the count of each of the spirit words (as defined above) were found for the pschedelic drugs and the non psychedelic drugs, and normalised. 
+
+```
+spiritual words and normalised frequency psychedelics
+{'heaven': 410.69744298138124, 'magic': 1174.9066090353438, 'universe': 2570.0153733039233, 'concious': 70.55381027709082, 'atheist': 54.586369003854465, 'creation': 275.15986008065414, 'exist': 805.0561088459625, 'god': 3301.9183209678495, 'hell': 3276.667483605522, 'spirit': 1329.7536558013799}
+spiritual words and normalised frequency, rest of drugs
+{'heaven': 190.43153902649394, 'magic': 548.4651050909255, 'universe': 1178.782362921309, 'concious': 32.85222456889807, 'atheist': 25.056781450854462, 'creation': 126.3975419854214, 'exist': 373.6244523005188, 'god': 1539.600015813613, 'hell': 1522.8954948463768, 'spirit': 610.2718326696998}
+```
+
+As we can see from the initial output, spiritual words do occur with more frequency in relation to psychedelics.
+
+### Chi Square test
+
+A chi square test was carried out to compare whether spiritual words are over-represented in the psychoactive drugs as compared to the rest of the data. 
+
+This was carries out using the normilised data:
+
+```
+scipy.stats.chisquare(normalised_frequency, f_exp=rest_normalised_frequency)
+```
+
+with the output:
+
+```
+Power_divergenceResult(statistic=1296.8442867656056, pvalue=1.4860939588891628e-273)
+```
+
 
 ### Conclusion
+
 The initial text processing needs to be refined in order to improve results. However the word frequencies suggest that evidence can be found to suggest that there is spiritualism within the modern use of psychoactive drugs.
 
-The project can be improved/ expanded upon by adding further drug experience webites, and looking at psychoactive drugs other than LSD and Mushrooms. 
+The project can be improved/ expanded upon by adding further drug experience webites, and looking at further spiritual words. The list of psychedelic drugs on wikipedia may not be comprehensive, and people may experience hallucinations on drugs other than the psychadelics. 
 
 There are also problems with the data, for example, misspelled words may be missed from the search. 
