@@ -56,6 +56,16 @@ According to [Lancaster University](https://www.lancaster.ac.uk/fss/courses/ling
 
 Therefore the count of each of the spirit words (as defined above) were found for the pschedelic drugs and the non psychedelic drugs, and normalised. 
 
+Different spiritual words from [wikipedia](https://en.wikipedia.org/wiki/Glossary_of_spirituality_terms) were used:
+
+```
+['spirituality', 'afterlife', 'agnosticism', 'ahimsa', 'aikido', 'akashic records', 'ancestor worship', 'asceticism', 'atheism', 'bagua (concept)', "bah\xc3\xa1'\xc3\xad faith", 'blessing', 'chakra', 'chant', 'channelling', 'creation', 'consciousness', 'contemplation', 'cosmogony', 'deism', 'deity', 'dhammapada', 'dharma', 'dhikr', 'emanationism', 'enlightenment', 'entheogen', 'epigenesis', 'epiphany', 'eschatology', 'esotericism', 'eternal return', 'eternity', 'eutheism, dystheism, and maltheism', 'existence', 'exorcism', 'faith healing', 'fasting', 'glossolalia', 'gnosticism', 'god', 'goddess', 'great awakenings', 'guru granth sahib', 'guru', 'hymn', 'i ching', 'iconolatry', 'inner peace', 'integrity', 'involution', 'japa', 'jihad', 'karma', 'koan', 'lataif-e-sitta', 'love', 'mantra', 'meaning of life', 'meditation', 'metaphysics', "mind's eye", 'miracle', 'moksha', 'muraqaba', 'mysticism', 'nasma', 'neopaganism', 'new age', 'nirvana', 'nondualism', 'oneness', 'pandeism', 'panentheism', 'pantheism', 'parapsychology', 'physical universe', 'pilgrimage', 'plane (cosmology)', 'prayer', 'prophecy', 'qi', 'qigong', 'reality', 'reincarnation', 'religion', 'religious ecstasy', 'repentance', 'responsibility assumption', 'revelation', 'revivalism', 'ritual', 'sacrifice', 'sadhana', 'saint', 'salvation', 'satguru', 'sbnr', 'seven virtues', 'shabd', 'shamanism', 'shinto', 'shunyata', 'simran', 'soul', 'spirit', 'spiritism', 'spiritual evolution', 'spiritualism', 'spirituality', 'sufi whirling', 'sufism', 'supplication', 'tao te ching', 'tenrikyo', 'theism', 'theosis', 'tithe', 'torah', 'transcendentalism', 'unitarian universalism', 'veneration', 'vipassana', 'wabi-sabi', 'worship', 'yana (buddhism)', 'yin and yang', 'yoga', 'zazen']
+```
+
+However, many of these words are vetry specific to certain relions, and not necessarily the type of words associated with the concioussness and self-awareness. 
+
+Therefore, the decision was made to go with the short spritiual words list as defined above, as these seemed less tied to relisigion. 
+
 ```
 spiritual words and normalised frequency psychedelics
 {'heaven': 410.69744298138124, 'magic': 1174.9066090353438, 'universe': 2570.0153733039233, 'concious': 70.55381027709082, 'atheist': 54.586369003854465, 'creation': 275.15986008065414, 'exist': 805.0561088459625, 'god': 3301.9183209678495, 'hell': 3276.667483605522, 'spirit': 1329.7536558013799}
