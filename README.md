@@ -75,6 +75,7 @@ with the output:
 Power_divergenceResult(statistic=1296.8442867656056, pvalue=1.4860939588891628e-273)
 ```
 
+The standard α value is 0.5, and therefore with a p-value of 1.49 we can accept the hypothesis, that spiritual words do occur more frequently in reports abuot psychedelics. Perhaps spiritualy curious people are drawn to psychedelics, or the hallucinagenic nature of the drugs causes users to question the nature of percieved reality. 
 
 ### Conclusion
 
