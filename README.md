@@ -4,6 +4,12 @@
 
 The drug experience website https://erowid.org/experiences/ is mined with bs to gain an insight into whether there are gender disparities regarding drug use, and if there are common themes among drug users. 
 
+---
+
+Please note: The final project report can be found in the Latec Document. This README helps to explain the code and justify the steps made, however not all of the code will be used in the final report. 
+
+---
+
 ### Introduction
 
 Psychoactive, or psychadelic drugs, such as mushrooms and LSD, are believed by many users to enhance conciousness, giving practitioners a spiritual, or even religious, experience (Letcher, 2007. Watts, 1968). Entrenched in indigenous culture, the use and popularity of these drugs is growing globally, despite prohibition, (Letcher, 2007. Rager, 2013). According to Letcher, practitioners experiences' with these drugs are "weighted", meaning that many people encounter similar hallucinations whilst on these drugs.  According to my own research, psychadelic drugs are amongst the most popular recreational drugs across both genders (see figure 1). What is it about the experiences people have on these drugs that make them so popular? Do people have shared or similar experiences? Is there a common goal or experience that these drug users strive for?
