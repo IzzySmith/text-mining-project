@@ -75,6 +75,10 @@ spiritual words and normalised frequency, rest of drugs
 
 As we can see from the initial output, spiritual words do occur with more frequency in relation to psychedelics.
 
+A graph was made in order to visualised the differences better:
+
+![spirit_word_freq_both](https://github.com/IzzySmith/text-mining-project/blob/master/np_graph_spirit_word_freq.png)
+
 ### Chi Square test
 
 A chi square test was carried out to compare whether spiritual words are over-represented in the psychoactive drugs as compared to the rest of the data. 
