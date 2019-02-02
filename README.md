@@ -2,7 +2,7 @@
 
 ### Summary
 
-The drug experience website https://erowid.org/experiences/ is mined with bs to gain an insight into whether there are gender disparities regarding drug use, and if there are common themes among drug users. 
+The drug experience website https://erowid.org/experiences/ is mined with beautiful soup to gain an insight into whether there are gender disparities regarding drug use, and if there are common themes among drug users. 
 
 ---
 
