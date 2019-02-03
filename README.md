@@ -26,9 +26,9 @@ Each of the experiences were downloaded, and processed using beautiful soup. Ini
 
 The genders were seperated into male and female, and charts made to compare whether drug use differed across users:
 
-![female_drugs](https://github.com/IzzySmith/text-mining-project/blob/master/female_top5.png "Female drugs")
+![female_drugs](https://github.com/IzzySmith/text-mining-project/blob/master/top_female_drugs.png "Female drugs")
 
-![male drugs](https://github.com/IzzySmith/text-mining-project/blob/master/maledrugs_cropped2.png)
+![male drugs](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/top_male_drugs.png)
 
 As you can see the differences are not substantial. Mushrooms and LSD are amongst the most popular drugs used, and therefore highlights the relevance of my research question. 
 
@@ -48,7 +48,7 @@ Finally, a (initially small) selection of words associated with spiritualism (as
 spiritual_words = ['god', 'spirit', 'heaven', 'hell', 'universe','magic','atheist', 'creation', 'concious', 'exist']
 ```
 
-![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/spriritwords_cropped.png)
+![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/pschedelic_spiritual_words.png)
 
 The drugs were then split into a list of drugs classed as Serotonergic psychedelics and those that were not. This was done according to a list on [wikipedia](https://en.wikipedia.org/wiki/List_of_psychedelic_drugs)
 
@@ -77,7 +77,7 @@ As we can see from the initial output, spiritual words do occur with more freque
 
 A graph was made in order to visualised the differences better:
 
-![spirit_word_freq_both](https://github.com/IzzySmith/text-mining-project/blob/master/np_graph_spirit_word_freq.png)
+![spirit_word_freq_both](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/spiritual_words_frequency.png)
 
 ### Chi Square test
 
