@@ -12,6 +12,10 @@ Please note: The final project report can be found in the Latec Document. This R
 
 ### Introduction
 
+This was initally started as a research project, as part of my degree. However, I enjoy working with NLP and decided to work on it to improve the reseach and also to reaquaint myself with natural language processing.
+
+The reseach that I wanted to undertake was to look into spiritualism in psychedelic drugs.
+
 Psychoactive, or psychadelic drugs, such as mushrooms and LSD, are believed by many users to enhance conciousness, giving practitioners a spiritual, or even religious, experience (Letcher, 2007. Watts, 1968). Entrenched in indigenous culture, the use and popularity of these drugs is growing globally, despite prohibition, (Letcher, 2007. Rager, 2013). According to Letcher, practitioners experiences' with these drugs are "weighted", meaning that many people encounter similar hallucinations whilst on these drugs.  According to my own research, psychadelic drugs are amongst the most popular recreational drugs across both genders (see figure 1). What is it about the experiences people have on these drugs that make them so popular? Do people have shared or similar experiences? Is there a common goal or experience that these drug users strive for?
 
 In order to answer these questions I will datamine the Erowid experience vaults. This database is built on drug users documenting their own personal experiences, and therefore provides valuable insights into the popularity and the appeal of such substances. 
@@ -26,7 +30,7 @@ Each of the experiences were downloaded, and processed using beautiful soup. Ini
 
 The genders were seperated into male and female, and charts made to compare whether drug use differed across users:
 
-![female_drugs](https://github.com/IzzySmith/text-mining-project/blob/master/top_female_drugs.png "Female drugs")
+![female_drugs](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/top_female_drugs.png "Female drugs")
 
 ![male drugs](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/top_male_drugs.png)
 
@@ -48,7 +52,7 @@ Finally, a (initially small) selection of words associated with spiritualism (as
 spiritual_words = ['god', 'spirit', 'heaven', 'hell', 'universe','magic','atheist', 'creation', 'concious', 'exist']
 ```
 
-![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/pschedelic_spiritual_words.png)
+![spirit word graph](https://github.com/IzzySmith/text-mining-project/blob/master/graphs/psychedic_spiritual_words.png)
 
 The drugs were then split into a list of drugs classed as Serotonergic psychedelics and those that were not. This was done according to a list on [wikipedia](https://en.wikipedia.org/wiki/List_of_psychedelic_drugs)
 
